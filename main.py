@@ -40,5 +40,5 @@ def send_request(message, history):
     return chunk_response
 #Lunching the chat app
 chat_interface = gr.ChatInterface(fn=send_request)
-chat_interface.launch()
+chat_interface.launch(share=True)
 
