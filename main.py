@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
-bot_url="Your_URL"
-header_token="Your_Token"
+bot_url="YOUR_URL"
+header_token="YOUR_TOKEN"
 model_uuid="YOUR_MODEL_UUID"
 #Sending the request
 def send_request(message, history):

@@ -5,7 +5,7 @@ after Deploying your LLM model you can connect this app to interact with your mo
 # **Installation**
 Clone this repository to your local machine:
 ```bash
- git clone https://github.com/mahmodjabareen/Gradio_ChatBot.git 
+git clone https://github.com/mahmodjabareen/Gradio_ChatBot.git 
 cd Gradio_ChatBot
 ```
 # **Install the required dependencies:**
@@ -16,9 +16,9 @@ pip install gradio
 Open the main.py file and set the following variables with your specific values:
 
 ```python
-bot_url = "Your_URL"
-header_token = "Your_Token"
-model_uuid = "YOUR_MODEL_UUID"
+bot_url="YOUR_URL"
+header_token="YOUR_TOKEN"
+model_uuid="YOUR_MODEL_UUID"
 ```
 Modify the values in the request_payload dictionary in the send_request function according to your requirements.
 # **run the app**
