@@ -1,6 +1,5 @@
 import gradio as gr
 import requests
-request_payload = ""
 bot_url="Your_URL"
 header_token="Your_Token"
 model_uuid="YOUR_MODEL_UUID"
