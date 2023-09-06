@@ -30,7 +30,7 @@ def send_request(message, history):
     }
     response = requests.post(bot_url, headers={
         "Content-Type": "application/json",
-        "Authorization": header_token
+        "x-api-key": header_token
     }, json=request_payload)
     chunk_response = ""
     reader = response.iter_content(chunk_size=128)
